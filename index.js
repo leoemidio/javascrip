@@ -1,7 +1,6 @@
-
+document.addEventListener("DOMContentLoaded",function() {
 const images = document.querySelectorAll('img');
-images.forEach((img, index) => {
-    console.log(`Imagem ${index + 1}:`, img.src);
+images.forEach(img => console.log(img));
 });
 
 const infoParagraph = document.getElementById('info');
